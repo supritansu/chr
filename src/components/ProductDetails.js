@@ -37,7 +37,7 @@ const ProductDetails = () => {
     const addCart = () => {
         var myHeaders = new Headers();
 
-        myHeaders.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NWZkMDgxNDE5N2U5NTg3MGIwNzcwMSIsImlhdCI6MTcwMTg2MzA1MiwiZXhwIjoxNzMzMzk5MDUyfQ.RvQQzKMdSDGkPGTSE6UYmH6eiFcP8wuaBGrzkjIw29A");
+        myHeaders.append("Authorization", token);
 
         myHeaders.append("projectID", "3oxp02p5lcr2");
 
