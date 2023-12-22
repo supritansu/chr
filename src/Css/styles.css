@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header Part  */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-part {
+    width: 80%;
+    height: 50px;
+}
+
+.menuIcon i,
+.cart i,
+.user i {
+    font-size: 22px;
+}
+
+textarea:focus,
+input:focus {
+    color: #000;
+}
+
+
+/* Search Bar  */
+button i {
+    font-size: 22px;
+}
+
+/* Categories */
+
+.categories {
+    width: 70%;
+    overflow-x: scroll;
+}
+
+.categories::-webkit-scrollbar {
+    display: none;
+}
+
+.product-list {
+    padding: 10px;
+    padding-left: 600px;
+    white-space: nowrap;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+
+/* DOD */
+.dod-items {
+    /* height: 100vh; */
+    padding: 100px 0;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.dod-item {
+    /* margin-top: 50px; */
+    padding: 10px;
+    width: 75%;
+    overflow-x: scroll;
+}
+
+.scroll {
+    /* height: 100%; */
+    width: 100%;
+    padding-left: 100px;
+}
+
+.dod-item::-webkit-scrollbar {
+    display: none;
+}
+
+.auth {
+    padding: 30px;
+}
+
+.main-part .left {
+    overflow-y: scroll;
+}
+
+.main-part .left::-webkit-scrollbar {
+    display: none;
+}
+
+.small-pic:hover {
+    border: 8px solid aqua;
+}
+
+.under {
+    text-decoration: none;
+}
+
+.indexx {
+    position: absolute;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: -27%;
+    z-index: 100;
+}
